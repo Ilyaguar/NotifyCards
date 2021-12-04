@@ -2,7 +2,7 @@ body{
     margin: 0%;
     padding: 0%;
     padding-top: 80px;
-    background-color: #d4d4d4;
+    background-color: #ebebeb;
     color: #3a3a3a;
     display: flex;
     flex-direction: row;
@@ -68,23 +68,25 @@ h3 {
 }
 
 #title{
-    height: 36pt;
+    height: 20pt;
     width: 80%;
-    border: #4b4b4b solid 2px;
-    padding: 0;
+    border: #3a3a3a solid 2px;
+    padding: 20px;
 }
 
-#text {
+#description {
     height: 200pt;
     width: 80%;
-    border: #4b4b4b solid 2px;
+    border: #3a3a3a solid 2px;
     resize: none;
-    padding: 0;
+    padding: 20px;
 }
 
 button {
     height: 40px;
-    width: 80%;
-    border: #4b4b4b solid 2px;
+    width: 50%;
+    border: none;
     padding: 0;
+    background-color: rgb(192, 192, 192);
+    
 }

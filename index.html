@@ -19,11 +19,11 @@
     </div>
     <section class="form">
         <h2>Создать напоминание</h2>
-        <div class="inp">
+        <form class="inp" method="POST" enctype="multipart/form-data">
             <input id="title" type="text" placeholder="Заголовок" required>
-            <textarea name="text" id="text" cols="30" rows="10" required>Что напомнить?..</textarea>
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="Что напомнить?.." required></textarea>
             <button>Добавить</button>
-        </div>
+        </form>
     </fieldset>
     </section>
 </body>
